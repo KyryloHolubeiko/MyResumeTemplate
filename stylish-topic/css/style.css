@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.img-profile {
+  border-radius: 50%;
+
+}
+
+.contacts-title {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.contacts-link{
+  color: #bec1c6;
+}
+
+.contacts-link-type {
+  line-height: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #bd5d38;
+}
+
+h2, .h2 {
+  font-size: calc(1.475rem + 2.7vw);
+}
+
+p {
+  color: #6c757d;
+}
+
+section.resume-section .resume-section-content {
+    width: 100%;
+}
+
+section.resume-section {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 75rem;
+}
+
+.navbar {
+  color: rgba(255, 255, 255, 0.55);
+  background-color: #bd5d38;
+}
+
+.navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.55);
+}
+
+h3, h1 {
+  margin-top: 20px;
+  margin-bottom: 0.5rem;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+h1, .h1 {
+  font-size: calc(1.725rem + 5.7vw);
+}
+
+.text-primary {
+  color: #bd5d38;
+}
+
+.subheading {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-size: 24px;
+  color: darkgray;
+  font-weight: 5000;
+}
+
+.name-of-section {
+  font-size: 62px;
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-weight: 700;
+  line-height: 1.2;
+  color: #343a40;
+  text-transform: uppercase;
+  margin-bottom: 3rem;
+}
+
+.date-right {
+  flex-shrink: 0;
+}
+
+.date-text {
+  color: #bd5d38;
+  font-size: 18px;
+}
+
+.subtitle-name-of-section {
+  font-size: 32px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.navbar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+nav li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+ 
+.list-inline-item {
+  display: inline-block;
+}
+  
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.about-icons {
+  font-size: 2.5rem;
+  padding-top: 48px;
+  display: inline-flex;
+  color: #fff;
+}
+
+.about-icon {
+  margin-right: 1.5rem;
+  color: #343a40;
+}
+
+.workflow-icons {
+  margin-right: 0.5rem;
+}
+
+.skills-icons {
+  font-size: 2.5rem;
+  padding: 0;
+}
+
+.icons-padding-right-10 {
+  padding-right: 10px;
+}
+
+.icons-padding-left-15 {
+  padding-left: 15px;
+}
+
+.icons-padding-15 {
+  padding: 15px;
+}
+
+.icons-awards {
+  padding-left: 0;
+  padding-top: 48px;
+  margin-left: 20px;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-contact-me {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  margin-top: 100px;
+}
