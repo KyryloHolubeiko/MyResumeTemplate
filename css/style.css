@@ -54,6 +54,8 @@
 }
 
 .navbar-nav {
+  flex-direction: column;
+  float: left;
   padding-left: 0;
   margin-bottom: 0;
 }
@@ -75,8 +77,12 @@
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0 1rem 0;
   color: #bd5d38;
+}
+
+.nav-last-item {
+  margin-bottom: 15px;
 }
 
 h2, .h2 {
