@@ -11,7 +11,7 @@
 }
 
 @media (max-width: 992px) {
-  img {
+  .img-profile {
     display: none;
   }
   .navbar-name {
@@ -42,11 +42,12 @@
 }
 
 @media (min-width: 992px) {
-  section.resume-section {
-    padding-left: 3rem;
-    padding-right: 3rem;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+  .resume-section {
+    padding: 5rem 3rem 3rem 5rem;
   }
   .navbar-toggler {
     display: none;
@@ -76,10 +77,6 @@
   }
   #sideNav .navbar-collapse .navbar-nav {
     width: 100%;
-  }
-  body {
-    padding-top: 0;
-    padding-left: 17rem;
   }
   .header .menu {
     clear: none;
